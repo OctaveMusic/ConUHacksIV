@@ -5,10 +5,7 @@ In support of the fourth edition of ConUHacks, January 26-27 2019; a Major Leagu
 ### Summary
 What if you had access to historical song play information; 180M jukebox song play events, in fact, that occurred across North America in the past 12 months. Knowing each play event contains date, artist, song, genre and geo coordinates, what would you build to help a music product team drive social awareness, analyze trends, discover anomalies, improve music curation, or…?
 
-### API URL
-https://conuhacks-playback-api.touchtunes.com/
-
-### Documentation
+### API Documentation
 https://conuhacks-playback-api.touchtunes.com/docs/
 
 ### Secret Authorization Token (*shhhh...!*)
