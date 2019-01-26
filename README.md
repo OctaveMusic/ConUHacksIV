@@ -16,15 +16,18 @@ https://conuhacks-playback-api.touchtunes.com/docs/
 ### Example Usage
 #### Getting Plays
 ```bash
-curl -X GET 'https://conuhacks-playback-api.touchtunes.com/plays?startDate=2018-02-19T21:00:00Z&endDate=2018-02-19T22:00:00Z&offset=0' -H 'client-secret: 9923ac9b-8fd3-421f-b0e5-952f807c6885'
+curl -X GET 'https://conuhacks-playback-api.touchtunes.com/plays?startDate=2018-02-19T21:00:00Z&endDate=2018-02-19T22:00:00Z&offset=0' \
+     -H 'client-secret: 9923ac9b-8fd3-421f-b0e5-952f807c6885'
 ```
 
 #### Getting a Song
 ```bash
-curl -X GET https://conuhacks-playback-api.touchtunes.com/song/11088314 -H 'client-secret: 9923ac9b-8fd3-421f-b0e5-952f807c6885'
+curl -X GET https://conuhacks-playback-api.touchtunes.com/song/11088314 \
+     -H 'client-secret: 9923ac9b-8fd3-421f-b0e5-952f807c6885'
 ```
 
 #### Getting an Artist
 ```bash
-curl -X GET https://conuhacks-playback-api.touchtunes.com/artist/1182 -H 'client-secret: 9923ac9b-8fd3-421f-b0e5-952f807c6885'
+curl -X GET https://conuhacks-playback-api.touchtunes.com/artist/1182 \
+     -H 'client-secret: 9923ac9b-8fd3-421f-b0e5-952f807c6885'
 ```
